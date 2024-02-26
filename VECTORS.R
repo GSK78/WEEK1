@@ -15,7 +15,7 @@ nrow(df1)
 ncol(df)
 ncol(df1)
 cc<-sapply(df,class)
-cc
+cc 
 cc<-sapply(combined,class)
 cc
 dd<-class(df)
