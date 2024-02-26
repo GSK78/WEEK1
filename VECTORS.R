@@ -6,7 +6,7 @@ df<-data.frame(name=c("akhil","amar","vallab","gowtham"),
 levels(df$sex)
 levels(df$sex)<-c("m","f")
 df
-df1<-data.frame(name=c("akhil","amar","vallab","gowtham"),
+df1<-data.frame(name=c("akhil","amar","vallab ","gowtham"),
                 working=c("yes","no","yes","no"))
 combined<-cbind(df,df1)
 combined
