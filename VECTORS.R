@@ -12,7 +12,7 @@ combined<-cbind(df,df1)
 combined
 nrow(df)
 nrow(df1)
-ncol(df)
+ncol(df)  
 ncol(df1)
 cc<-sapply(df,class)
 cc 
